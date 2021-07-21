@@ -1,4 +1,4 @@
-const requestURL = '../data/companies.json';
+const requestURL = 'https://github.com/rogue-towne/glendalechamber/blob/main/data/companies.json';
 fetch(requestURL)
   .then((response) => response.json())
   .then((jsObject) => {
