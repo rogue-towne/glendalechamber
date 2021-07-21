@@ -1,0 +1,66 @@
+{
+    "company": [{
+        "name": "Larry H. Miller Fiat Avondale",
+        "phone": "877-999-8148",
+        "streetAddress": "10601 W. Papago Freeway",
+        "cityZip": "Avondale, AZ 85323",
+        "website" : "http://www.fiatavondale.com/",
+        "logo": "https://www.chamberorganizer.com/glendalechamber/photos/MP3167551412040758P.JPG"
+    },{
+        "name": "GCON",
+        "phone": "602-881-0622",
+        "streetAddress": "1606 W. Whispering Wind Drive Suite 1",
+        "cityZip": "Phoenix, AZ 85085",
+        "website" : "http://www.gconinc.com/",
+        "logo" : "https://www.chamberorganizer.com/glendalechamber/photos/MP4534181709195715P.GIF"
+    },{
+        "name": "Wells Fargo Bank Arizona | 59th Ave. & Beardsley",
+        "phone": "623-561-5248",
+        "streetAddress": "20369 N. 59th Avenue",
+        "cityZip": "Glendale, AZ 85308",
+        "website" : "http://www.wellsfargo.com/",
+        "logo" : "https://www.chamberorganizer.com/glendalechamber/photos/MP7300841901154014P.JPG"
+    },{
+        "name": "State Farm Insurance | David Dorman Agency",
+        "phone": "623-247-2417",
+        "streetAddress": "10630 N. 59th Avenue Suite 102",
+        "cityZip": "Glendale, AZ 85304",
+        "website" : "http://www.sfglendale.com/",
+        "logo" : "https://www.chamberorganizer.com/glendalechamber/photos/MP7376781902251427P.GIF"
+    },{
+        "name": "Sands Chevrolet",
+        "phone": "623-931-9331",
+        "streetAddress": "5418 N.W. Grand Avenue",
+        "cityZip": "Glendale, AZ 85301",
+        "website" : "http://www.sandschevrolet.com/",
+        "logo" : "https://www.chamberorganizer.com/glendalechamber/photos/MP595461409043406P.JPG"
+    },{
+        "name": "Gila River Arena",
+        "phone": "623-249-2615",
+        "streetAddress": "9400 W. Maryland Avenue",
+        "cityZip": "Glendale, AZ 85305",
+        "website" : "http://www.gilariverarena.com/",
+        "logo" : "https://www.chamberorganizer.com/glendalechamber/photos/MP6044751702082203P.JPG"
+    },{
+        "name": "Benefit Commerce Group",
+        "phone": "480-515-5010x300",
+        "streetAddress": "14300 N. Northsight Blvd. Suite 221",
+        "cityZip": "Scottsdale, AZ 85260",
+        "website" : "http://www.benefitcommerce.com/",
+        "logo" : "https://www.chamberorganizer.com/glendalechamber/photos/MP6668421802015629P.JPG"
+    },{
+        "name": "Arizona Coyotes",
+        "phone": "623-772-3238",
+        "streetAddress": "9400 W. Maryland Avenue",
+        "cityZip": "Glendale, AZ 85305",
+        "website" : "http://www.coyotes.nhl.com/",
+        "logo" : "https://glendale.chamberofcommerce.me/glendalechamber/photos/MP4174472012182951P.JPG"
+    },{
+        "name": "Desert Rose Pizza & Gastropub",
+        "phone": "623-680-9163",
+        "streetAddress": "6729 N. 57th Drive",
+        "cityZip": "Glendale, AZ 85301",
+        "website" : "http://www.desertrosepizzaandgastropub.com/",
+        "logo" : "https://www.chamberorganizer.com/glendalechamber/photos/MP5122341509222645P.JPG"
+    }]
+}
