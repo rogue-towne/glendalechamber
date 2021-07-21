@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Glendale Chamber of Commerce Home Page">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <script defer src="js/date.js"></script>
+    <script defer src="js/form.js"></script>
+    <title>Glendale Chamber</title>
+</head>
+<body>
+    <header >
+        <div class="nav-bar">
+            <a class="chamber-logo" href="index.html">
+                <img class="logo" src="images/glendale_chamber_logo.png" alt="Glendale Chamber of Congress Logo">
+            </a>
+            <a class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <nav class="navbar-links">
+                <ul>
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="glendale.html">Glendale</a></li>
+                    <li><a href="join.html">Join</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <hr>
+    <main>
+        <h1>Glendale Chamber Membership Registration</h1>
+        <h2>Becoming a Member of Glendale Chamber of Congress means </h2>
+        <ul class="join-benefits-list">
+            <li>Helping connect you with the community</li>
+            <li>Greater exposure through advertisment</li>
+            <li>Access to programs & services to improve financial success</li>
+            <li>A dependable source for community information and resource for business referrals</li>
+        </ul>
+        <h3>Please enter the following:</h3>
+        <form class="join-form">
+            <h2>Personal Information</h2>
+            <fieldset class="contact-fieldset">
+                <label class="top" for="fname">First name:</label><input placeholder="Joe" name="fname" id="fname" type="text" required>
+                <label class="top" for="lname">Last Name:</label><input placeholder="Schmoe" name="lname" id="lname"type="text" required>
+                <label class="top" for="title">Title:</label><input placeholder="Project Manager" name="lname" id="lname"type="text" >
+                <label class="top" for="email">Email:</label><input placeholder="example@email.com" name="email" id="email" type="email" required>
+                <label class="top" for="phone">Phone Number:</label><input placeholder="(999)-999-999" name="phone" id="phone"type="tel">
+            </fieldset>
+            <h2>Company Information</h2>
+            <fieldset class="contact-fieldset">
+                <label class="top" for="companyname">Company name:</label><input placeholder="Acme Corp." name="companyname" id="companyname" type="text" required>
+                <label class="top" for="companydesc">Company Description:</label><textarea placeholder="About company.." name="companydesc" id="companydesc"></textarea>
+                <label class="top" for="companysite">Company website:</label><input placeholder="website@email.com" name="companysite" id="companysite" type="text">
+                <label class="top" for="companyaddress1">Address 1: </label><input placeholder="123 Easy Way" name="companyaddress1" id="companyaddress1" type="text">
+                <label class="top" for="companyaddress2">Address 2: </label><input placeholder="Suite 100" name="companyaddress2" id="companyaddress2" type="text">
+                <label class="top">Country:
+                    <select name="country" id="selectcountry" onchange="selectRsponse()">
+                    <option value="AL">Albania</option>
+                    <option value="DZ">Algeria</option>
+                    <option value="AR">Argentina</option>
+                    <option value="AM">Armenia</option>
+                    <option value="AU">Australia</option>
+                    <option value="AT">Austria</option>
+                    <option value="AZ">Azerbaijan</option>
+                    <option value="BS">Bahamas</option>
+                    <option value="BH">Bahrain</option>
+                    <option value="BD">Bangladesh</option>
+                    <option value="BE">Belgium</option>
+                    <option value="BZ">Belize</option>
+                    <option value="BM">Bermuda</option>
+                    <option value="BM">Bermuda</option>
+                    <option value="VE">Bolivarian Republic of Venezuela</option>
+                    <option value="BO">Bolivia</option>
+                    <option value="BA">Bosnia and Herzegovina</option>
+                    <option value="BW">Botswana</option>
+                    <option value="BR">Brazil</option>
+                    <option value="BN">Brunei Darussalam</option>
+                    <option value="BG">Bulgaria</option>
+                    <option value="KH">Cambodia</option>
+                    <option value="CM">Cameroon</option>
+                    <option value="CA">Canada</option>
+                    <option value="029">Caribbean</option>
+                    <option value="CL">Chile</option>
+                    <option value="CN">China</option>
+                    <option value="CO">Colombia</option>
+                    <option value="CD">Congo [DRC]</option>
+                    <option value="CR">Costa Rica</option>
+                    <option value="HR">Croatia</option>
+                    <option value="CZ">Czech Republic</option>
+                    <option value="DK">Denmark</option>
+                    <option value="DO">Dominican Republic</option>
+                    <option value="EC">Ecuador</option>
+                    <option value="EG">Egypt</option>
+                    <option value="SV">El Salvador</option>
+                    <option value="ER">Eritrea</option>
+                    <option value="EE">Estonia</option>
+                    <option value="ET">Ethiopia</option>
+                    <option value="FO">Faroe Islands</option>
+                    <option value="FI">Finland</option>
+                    <option value="FR">France</option>
+                    <option value="GE">Georgia</option>
+                    <option value="DE">Germany</option>
+                    <option value="GR">Greece</option>
+                    <option value="GL">Greenland</option>
+                    <option value="GT">Guatemala</option>
+                    <option value="HT">Haiti</option>
+                    <option value="HN">Honduras</option>
+                    <option value="HK">Hong Kong</option>
+                    <option value="HK">Hong Kong SAR</option>
+                    <option value="HU">Hungary</option>
+                    <option value="IS">Iceland</option>
+                    <option value="IN">India</option>
+                    <option value="ID">Indonesia</option>
+                    <option value="IE">Ireland</option>
+                    <option value="IL">Israel</option>
+                    <option value="IT">Italy</option>
+                    <option value="CI">Ivory Coast</option>
+                    <option value="JM">Jamaica</option>
+                    <option value="JP">Japan</option>
+                    <option value="JO">Jordan</option>
+                    <option value="KZ">Kazakhstan</option>
+                    <option value="KE">Kenya</option>
+                    <option value="KR">Korea</option>
+                    <option value="KW">Kuwait</option>
+                    <option value="KG">Kyrgyzstan</option>
+                    <option value="LA">Lao PDR</option>
+                    <option value="419">Latin America</option>
+                    <option value="LV">Latvia</option>
+                    <option value="LI">Liechtenstein</option>
+                    <option value="LT">Lithuania</option>
+                    <option value="LU">Luxembourg</option>
+                    <option value="MO">Macao SAR</option>
+                    <option value="MK">Macedonia (Former Yugoslav Republic of Macedonia)</option>
+                    <option value="MY">Malaysia</option>
+                    <option value="MV">Maldives</option>
+                    <option value="ML">Mali</option>
+                    <option value="MT">Malta</option>
+                    <option value="MX">Mexico</option>
+                    <option value="MD">Moldova</option>
+                    <option value="MN">Mongolia</option>
+                    <option value="ME">Montenegro</option>
+                    <option value="MA">Morocco</option>
+                    <option value="MM">Myanmar</option>
+                    <option value="NP">Nepal</option>
+                    <option value="NL">Netherlands</option>
+                    <option value="NZ">New Zealand</option>
+                    <option value="NI">Nicaragua</option>
+                    <option value="NG">Nigeria</option>
+                    <option value="NO">Norway</option>
+                    <option value="OM">Oman</option>
+                    <option value="PK">Pakistan</option>
+                    <option value="PA">Panama</option>
+                    <option value="PY">Paraguay</option>
+                    <option value="PE">Peru</option>
+                    <option value="PH">Philippines</option>
+                    <option value="PL">Poland</option>
+                    <option value="PT">Portugal</option>
+                    <option value="MC">Principality of Monaco</option>
+                    <option value="PR">Puerto Rico</option>
+                    <option value="RE">R&#233;union</option>
+                    <option value="RO">Romania</option>
+                    <option value="RU">Russia</option>
+                    <option value="RW">Rwanda</option>
+                    <option value="SA">Saudi Arabia</option>
+                    <option value="SN">Senegal</option>
+                    <option value="RS">Serbia</option>
+                    <option value="CS">Serbia and Montenegro (Former)</option>
+                    <option value="SG">Singapore</option>
+                    <option value="SK">Slovakia</option>
+                    <option value="SI">Slovenia</option>
+                    <option value="SO">Somalia</option>
+                    <option value="ZA">South Africa</option>
+                    <option value="ES">Spain</option>
+                    <option value="LK">Sri Lanka</option>
+                    <option value="SE">Sweden</option>
+                    <option value="CH">Switzerland</option>
+                    <option value="TW">Taiwan</option>
+                    <option value="TJ">Tajikistan</option>
+                    <option value="TH">Thailand</option>
+                    <option value="TT">Trinidad and Tobago</option>
+                    <option value="TN">Tunisia</option>
+                    <option value="TR">Turkey</option>
+                    <option value="TM">Turkmenistan</option>
+                    <option value="AE">U.A.E.</option>
+                    <option value="UA">Ukraine</option>
+                    <option value="GB">United Kingdom</option>
+                    <option selected value="US">United States</option>
+                    <option value="UY">Uruguay</option>
+                    <option value="UZ">Uzbekistan</option>
+                    <option value="VN">Vietnam</option>
+                    <option value="YE">Yemen</option>
+                    </select>  
+                <label class="top" for="city">City:</label><input placeholder="Glendale"  name="city" id="city" type="text"> 
+                <label class="top">State: <select name="states" id="select">
+                    <option value="AL">Alabama</option>
+                    <option value="AK">Alaska</option>
+                    <option value="AR">Arkansas</option>
+                    <option selected value="AZ">Arizona</option>
+                    <option value="CA">California</option>
+                    <option value="CO">Colorado</option>
+                    <option value="CT">Connecticut</option>
+                    <option value="DE">Delaware</option>
+                    <option value="DC">District Of Columbia</option>
+                    <option value="FL">Florida</option>
+                    <option value="GA">Georgia</option>
+                    <option value="HI">Hawaii</option>
+                    <option value="ID">Idaho</option>
+                    <option value="IL">Illinois</option>
+                    <option value="IN">Indiana</option>
+                    <option value="IA">Iowa</option>
+                    <option value="KS">Kansas</option>
+                    <option value="KY">Kentucky</option>
+                    <option value="LA">Louisiana</option>
+                    <option value="ME">Maine</option>
+                    <option value="MD">Maryland</option>
+                    <option value="MA">Massachusetts</option>
+                    <option value="MI">Michigan</option>
+                    <option value="MN">Minnesota</option>
+                    <option value="MS">Mississippi</option>
+                    <option value="MO">Missouri</option>
+                    <option value="MT">Montana</option>
+                    <option value="NE">Nebraska</option>
+                    <option value="NV">Nevada</option>
+                    <option value="NH">New Hampshire</option>
+                    <option value="NJ">New Jersey</option>
+                    <option value="NM">New Mexico</option>
+                    <option value="NY">New York</option>
+                    <option value="NC">North Carolina</option>
+                    <option value="ND">North Dakota</option>
+                    <option value="OH">Ohio</option>
+                    <option value="OK">Oklahoma</option>
+                    <option value="OR">Oregon</option>
+                    <option value="PA">Pennsylvania</option>
+                    <option value="RI">Rhode Island</option>
+                    <option value="SC">South Carolina</option>
+                    <option value="SD">South Dakota</option>
+                    <option value="TN">Tennessee</option>
+                    <option value="TX">Texas</option>
+                    <option value="UT">Utah</option>
+                    <option value="VT">Vermont</option>
+                    <option value="VA">Virginia</option>
+                    <option value="WA">Washington</option>
+                    <option value="WV">West Virginia</option>
+                    <option value="WI">Wisconsin</option>
+                    <option value="WY">Wyoming</option>
+                        </select>	
+                </label>
+            <label class="top" for="zipcode">Postal Code:</label><input placeholder="85301" name="zipcode" id="zipcode" type="text"> 
+            </fieldset>
+            <h2>Pick Membership Level:</h2>
+            <a href="membership.html">Membership Benefits Comparison Chart</a>
+            <fieldset class="contact-fieldset">
+                <input type="radio" id="nonprofit" name="memberlevel" value="Non-profit">
+                <label for="nonprofit">Non-profit ($100) </label>
+                <input type="radio" id="bronze" name="memberlevel" value="Bronze">
+                <label for="bronze">Bronze ($200) </label>
+                <input type="radio" id="silver" name="memberlevel" value="Silver">
+                <label for="silver">Silver ($400) </label>
+                <input type="radio" id="gold" name="memberlevel" value="Gold">
+                <label for="gold">Gold ($1000)</label>
+
+                <input type="submit" class="sbutton" value="Register for Chamber"> <input type="reset" class="sbutton" value="Clear">
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <hr>
+        &copy; Glendale Chamber | <a href="#">Attributions</a> |  <a href="#">Terms and Conditions</a> | <span id="date"></span>
+    </footer>
+    <script src="js/toggleMenu.js"></script>
+</body>
+</html>
