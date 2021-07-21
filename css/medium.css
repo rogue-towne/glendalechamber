@@ -1,5 +1,9 @@
 @media only screen and (min-width: 32.5em){
 /* --Header-- */
+.nav-bar {
+    display: block;
+    
+}
     .navbar-links {
        display: flex;
        width: 100%;
