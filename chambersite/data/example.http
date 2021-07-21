@@ -1,1 +1,0 @@
-curl --header "Authorization: API-Key 8kD-rRrCxxxb7Jcy56fkLA" "https://api.generated.photos/api/v1/faces?per_page=5&age=adult&gender=female"
