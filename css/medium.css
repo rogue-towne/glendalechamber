@@ -2,7 +2,6 @@
 /* --Header-- */
 .nav-bar {
     display: block;
-    
 }
     .navbar-links {
        display: flex;
@@ -129,5 +128,29 @@
         padding: 20px;
         margin: auto;
     }
-
+    /*Home Page*/
+    .welcome {
+        top: -15px;
+    }
+    .join {
+        bottom: 270px;
+        font-size: .7rem;
+        right: 50px;
+        left: 50px;
+        
+    }
+    .join-button {
+        font-size: 1.1rem;
+    }
+    /*Mission section*/
+    .mission-box {
+        margin: 30px 8% 70px;
+    }
+    .mission-pic {
+        float: right;
+        width: 400px;
+    }
+    .mission {
+        width: 700px;
+    }
 }

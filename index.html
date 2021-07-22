@@ -30,7 +30,7 @@
             </div>
             <div class="navbar-links">
                 <ul>
-                    <li class="active"><a href="index.html">Home</a></li>
+                    <li ><a class="active" href="index.html">Home</a></li>
                     <li><a href="glendale.html">Glendale</a></li>
                     <li><a href="join.html">Join</a></li>
                     <li><a href="directory.html">Directory</a></li>
@@ -39,8 +39,60 @@
             </div>
         </nav>
     </header>
-    <hr>
     <main>
+        <div class="hero">
+            <picture class="glendale-hero-pic">
+                <source media="(max-width: 500px)" srcset= "images/chamber-home-500.jpg">
+                <source media="(max-width: 800px)" srcset= "images/chamber-home-800.jpg">
+                <img src="images/chamber-home-1250.jpg" alt="bird's-eye view of arizona valley including school and houses">
+            </picture>
+            <section class="event-overlay">
+                <h2>Upcoming Chamber Events:</h2>
+                <div class="events-title-box">
+                    <h3 class="dates-title">Dates</h3>
+                    <h3>Events</h3>
+                </div>
+                <div class="events">
+                    <p class="date">7/23 - 7/24: </p>
+                    <p  class="event"><a href="https://www.chamberorganizer.com/Calendar/moreinfo_responsive.php?eventid=396344&org_id=GDCC">World Day Festival</a></p>
+                </div>
+                <div class="events">
+                    <p class="date">7/24: </p>
+                    <p class="event"><a href="https://www.chamberorganizer.com/Calendar/moreinfo_responsive.php?eventid=392135&org_id=GDCC">Chamber 101: A New Member Orientation</a></p>
+                </div>
+                <div class="events">
+                    <p class="date">7/26: </p>
+                    <p class="event"><a href="https://www.chamberorganizer.com/Calendar/moreinfo_responsive.php?eventid=394966&org_id=GDCC">Business Over Breakfast</a></p>
+                </div>
+                <div class="events">
+                    <p class="date">7/28: </p>
+                    <p class="event"><a href="https://www.chamberorganizer.com/Calendar/moreinfo_responsive.php?eventid=397403&org_id=GDCC">Creation Research Society Conference</a></p>
+                </div>
+            </section>
+                <h1 class="welcome overlay">Welcome! </h1>
+  
+            <div class="join overlay">
+                <h1>Click below to join the Glendale Chamber of Commerce</h1>
+                <button class= "join-button"type="button" onclick="location.href='join.html'">Join Chamber</button>
+            </div>
+            <hr>
+            <div class="mission-box">
+                <img class="mission-pic"src="images/lightbulb-passion-500.jpg">
+                <section class="mission">
+                    <h2>The Glendale Chamber of Congress Mission</h2>
+                    <p>Our mission is to help businesses in the city foster a strong network and help make connections. This chamber is focused on helping to strengthen the business interests of the city to help improve the well-being of all its citizens. This is a place where new, old, large or small businesses can join and get more advertisement to improve their business. </p>
+                    <h3>Being a Member means </h3>
+                    <ul class="member-benefits-list">
+                        <li>Being connected with the community</li>
+                        <li>Having access to more opportunites that help advertise my company</li>
+                        <li>Having access to programs & services to improve my financial success</li>
+                        <li>Taking advantage of dependable sources for community information </li>
+                        <li>Greater opportunity to create contacts for business referrals</li>
+                    </ul>
+                </section>
+
+            </div>
+        </div>
     </main>
     <footer>
         <hr>

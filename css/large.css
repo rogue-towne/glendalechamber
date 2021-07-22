@@ -30,5 +30,27 @@
     .history-pic {
         margin: auto 0px auto 50px;
     }
+    .event-overlay {
+        position: absolute;
+        top: 40px;
+        right: 40px;
+        background-color: rgba(0,0,0,0.7);
+    }
+    /*glendale join overlay */
+    .welcome {
+        top: -10px;
+        left: -800px;
+        font-size: 3rem;
+        font-weight: bold;
+    }
+    .join {
+        top: 400px;
+        bottom: 30px;
+        right: 550px;
+        left: 30px;
+    }
+    .join-button {
+        font-size: 1.1rem;
+    }
 
 }

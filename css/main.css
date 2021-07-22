@@ -18,7 +18,6 @@ font-family: 'Playfair Display', serif; */
 }
 .navbar-links{
     display: none;
-    width: 100%;
     align-items: center;
 }
 .toggle {
@@ -30,7 +29,7 @@ font-family: 'Playfair Display', serif; */
     padding: 0;
     display: flex;
     flex-direction: column;
-    width: 100%;
+    
 }
 .navbar-links a{
     font-family: 'Cabin', sans-serif;
@@ -39,6 +38,11 @@ font-family: 'Playfair Display', serif; */
     font-size: 1.5rem;
     padding: .5rem;
     display: block;
+}
+a.active {
+    padding-bottom: 2px;
+    border-bottom: 3px solid var(--primary);
+
 }
 .navbar-links li{
     list-style: none;
@@ -66,7 +70,6 @@ font-family: 'Playfair Display', serif; */
 /* Body */
 h1, h2, h3 {
     font-family: 'Playfair Display', serif;
-    
 }
 hr {
     border: 0;
@@ -169,7 +172,7 @@ footer a:hover{
     color: var(--primary);
 }
 /* Join list */
-.join-benefits-list {
+.member-benefits-list {
     text-align: left;
     
 }
@@ -247,3 +250,62 @@ footer a:hover{
 .history-content h3{
     text-align: center;
 }
+/* Home Page */
+.event-overlay { 
+   color: white;
+   background-color: rgba(0,0,0,0.8);
+   width: fit-content;
+}
+.events-title-box {
+    display: flex;
+   font-size: 1.2rem;
+}
+.events {
+    display: flex;
+    align-content: center;
+}
+.events a {
+    text-decoration: none;
+    color: var(--secondary);
+}
+.date {
+    text-align: left;
+}
+.date, .dates-title {
+    width: 80px;
+}
+.date, .event, .events-title-box h3{
+    margin: 9px 15px;
+}
+/*glendale join overlay */
+.overlay{
+    position: absolute;
+
+}
+.join {
+    bottom: 310px;
+    right: 10px;
+    left: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding-bottom: 15px;
+}
+.welcome {
+    top: 10px;
+    right: 10px;
+    left: 10px;
+}
+.join-button {
+    font-size: 1.1rem;
+    color: black;
+    background-color: var(--secondary);
+    padding: 12px;
+    border: none;
+    font-weight: bold;
+}
+.join-button:hover {
+    background-color: #7ba704ec;
+}
+    /*Purpose section*/
+    .mission-pic {
+        width: 400px;
+    }
