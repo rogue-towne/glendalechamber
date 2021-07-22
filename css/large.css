@@ -52,5 +52,13 @@
     .join-button {
         font-size: 1.1rem;
     }
+    .home {
+        display: flex;
+        justify-content: space-around;
+    }
+    .social {
+        margin-bottom: 20px;
 
+    }
+    
 }

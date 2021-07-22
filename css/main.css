@@ -305,7 +305,20 @@ footer a:hover{
 .join-button:hover {
     background-color: #7ba704ec;
 }
-    /*Purpose section*/
-    .mission-pic {
-        width: 400px;
-    }
+/*Purpose section*/
+.mission-pic {
+    width: 400px;
+}
+/*Ads */
+.ad-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.ad {
+    margin: 20px;
+}
+.off {
+    display: none;
+}
+
