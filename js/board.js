@@ -1,4 +1,4 @@
-const requestURL = '../data/contactData.json';
+const requestURL = 'contactData.json';
 const list = document.querySelector('.board-list');
 fetch(requestURL)
   .then(function (response) {
@@ -21,7 +21,7 @@ fetch(requestURL)
     }
 });
 
-const requestURL2 = '../data/faces.json';
+const requestURL2 = 'faces.json';
 fetch(requestURL2)
   .then((response) => response.json())
   .then((jsObject) => {

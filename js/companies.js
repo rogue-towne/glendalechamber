@@ -1,4 +1,4 @@
-const requestURL = '../data/companies.json';
+const requestURL = 'companies.json';
 fetch(requestURL)
   .then((response) => response.json())
   .then((jsObject) => {
